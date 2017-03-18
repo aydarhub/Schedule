@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Shedule</string>
+    <string name="group">Группа: </string>
+    <string name="day">День: </string>
+    <string name="lesson_number">Номер пары: </string>
+    <string name="lesson">Предмет: </string>
+    <string name="teacher">Преподаватель: </string>
+    <string name="cabinet">Кабинет: </string>
+</resources>
