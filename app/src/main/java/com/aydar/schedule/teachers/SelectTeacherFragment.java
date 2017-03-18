@@ -52,16 +52,16 @@ public class SelectTeacherFragment extends Fragment {
 
         private Teacher mTeacher;
 
-        public TextView mTeacherNameTextView;
+        private TextView mTeacherNameTextView;
 
-        public SelectTeacherHolder(View itemView) {
+        private SelectTeacherHolder(View itemView) {
             super(itemView);
             mTeacherNameTextView = (TextView)
                     itemView.findViewById(R.id.list_item_teacher_title_text_view);
             mTeacherNameTextView.setOnClickListener(this);
         }
 
-        public void bindTeacher(Teacher teacher) {
+        private void bindTeacher(Teacher teacher) {
             mTeacher = teacher;
             mTeacherNameTextView.setText(mTeacher.getSoname() + " " +
                     mTeacher.getName() + " " +
@@ -81,7 +81,7 @@ public class SelectTeacherFragment extends Fragment {
 
         private List<Teacher> mTeacherList;
 
-        public SelectTeacherAdapter(List<Teacher> teachers) {
+        private SelectTeacherAdapter(List<Teacher> teachers) {
             mTeacherList = teachers;
         }
 
